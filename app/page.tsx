@@ -34,7 +34,7 @@ export default function HomePage() {
               <span className="text-xl font-bold">PixelLearn</span>
             </Link>
           </div>
-          <nav className="flex items-center gap-6">
+          <nav className="flex flex-wrap items-center gap-4 sm:gap-6">
             <Link href="/explore" className="text-sm font-medium hover:text-primary transition-colors hover-scale">
               Explore
             </Link>
@@ -51,7 +51,7 @@ export default function HomePage() {
               Leaderboard
             </Link>
           </nav>
-          <div className="flex items-center gap-4">
+          <div className="flex flex-wrap items-center gap-4">
             <div className="flex items-center gap-2">
               <div className="flex h-6 items-center rounded-md bg-yellow-100 px-2 text-xs font-medium border border-yellow-400 animate-pulse hover-scale">
                 <span className="text-yellow-700">Level 15</span>
@@ -135,7 +135,7 @@ export default function HomePage() {
               <AnimatedElement animation="slide-left" delay={0.3}>
                 <Card className="pixel-card hover-lift">
                   <CardContent className="p-4">
-                    <div className="flex items-center justify-between mb-4">
+                    <div className="flex flex-wrap items-center justify-between mb-4">
                       <h3 className="text-lg font-bold">Leaderboard</h3>
                       <PixelCharacter type="trophy" className="h-8 w-8 shine-animation hover-scale" />
                     </div>
